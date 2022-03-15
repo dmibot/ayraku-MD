@@ -3,8 +3,10 @@ import { join } from 'path'
 import { xpRange } from '../lib/levelling.js'
 let tags = {
   'main': 'Main',
+  'anonymous': 'Anonymous Chat',
   'game': 'Game',
   'rpg': 'RPG Games',
+  'fun': 'Fun',
   'xp': 'Exp & Limit',
   'sticker': 'Sticker',
   'kerang': 'Kerang Ajaib',
@@ -12,12 +14,11 @@ let tags = {
   'admin': 'Admin',
   'group': 'Group',
   'premium': 'Premium',
+  'primbon': 'Primbon',
   'internet': 'Internet',
-  'anonymous': 'Anonymous Chat',
   'nulis': 'MagerNulis & Logo',
   'downloader': 'Downloader',
   'tools': 'Tools',
-  'fun': 'Fun',
   'database': 'Database',
   'vote': 'Voting',
   'absen': 'Absen',
@@ -31,24 +32,24 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-╭─「 %me 🤖」
-│ 👋🏻 Hai, %name!
-│
-│ 🧱 Limit : *%limit Limit*
-│ 🦸🏼‍♂️ Role : *%role*
-│ 🔼 Level : *%level (%exp / %maxexp)*
-│ 💫 Total XP : %totalexp ✨
-│ 
-│ 📅 Tanggal: *%week, %date*
-│ 🕰️ Waktu: *%time*
-│
-│ 📈 Uptime: *%uptime (%muptime)*
-│ 📊 Database: %rtotalreg of %totalreg
-╰────
+┌──「 %me 🤖」
+│============================
+├  ${ucapan()}, %name!
+├ 👤 Nama : %name!
+├ 🏅 Role : *%role*
+├ 🎗️ Level : *%level (%exp / %maxexp)*
+├ 📟 Total XP : %totalexp ✨
+├ 🛰️ Limit : *%limit Limit*
+├ 🗓️ Hari: *%week %weton*
+├ 📅 Tanggal: *%date*
+├ 🕰️ Waktu: *%time*
+├ 📈 Uptime: *%uptime (%muptime)*
+├ 📊 Database: %rtotalreg of %totalreg
+│============================
 %readmore`.trimStart(),
-  header: '╭─「 %category 」',
-  body: '│ • %cmd %islimit %isPremium',
-  footer: '╰────\n',
+  header: '◪「 %category 」',
+  body: '├❏ %cmd %islimit %isPremium',
+  footer: '\n',
   after: `
 *%npmname* | %version
 ${'```%npmdesc```'}
@@ -151,7 +152,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
     const pp = await conn.profilePictureUrl(conn.user.jid).catch(_ => './src/avatar_contact.png')
-    conn.sendHydrated(m.chat, text.trim(), author, pp, 'https://github.com/BochilGaming/games-wabot', 'Github', null, null, [
+    conn.sendHydrated(m.chat, text.trim(), author, pp, 'https://rest-beni.herokuapp.com', 'Rest-Api', null, null, [
       ['Donate', '/donasi'],
       ['Speed', '/ping'],
       ['Owner', '/owner']
@@ -177,4 +178,21 @@ function clockString(ms) {
   let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
   let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
   return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')
+}
+function ucapan() {
+  const time = (new Date().getUTCHours() + 7) % 24
+  res = "Woi. Pagi"
+  if (time >= 4) {
+    res = "Selamat Pagi"
+  }
+  if (time >= 12) {
+    res = "Selamat Siang"
+  }
+  if (time >= 15) {
+    res = "Selamat Sore"
+  }
+  if (time >= 19) {
+    res = "Selamat Malam"
+  }
+  return res
 }
