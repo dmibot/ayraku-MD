@@ -1,6 +1,6 @@
 {
-    "name": "games-wabot",
-    "version": "0.9.86",
+    "name": "",
+    "version": "",
     "description": "Customizable WhatsApp Bot",
     "main": "index.js",
     "type": "module",
@@ -26,16 +26,16 @@
         "MD",
         "baileys-md"
     ],
-    "homepage": "https://github.com/BochilGaming/games-wabot",
+    "homepage": "https://github.com/botstylee/botstylee-md",
     "author": {
-        "name": "BochilGaming"
+        "name": "Benniismael"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/BochilGaming/games-wabot.git"
+        "url": "git+https://github.com/botstylee/botstylee-md.git"
     },
     "bugs": {
-        "url": "https://github.com/BochilGaming/games-wabot/issues"
+        "url": "https://github.com/botstylee/botstylee-md/issues"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {
