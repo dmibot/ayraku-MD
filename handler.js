@@ -129,6 +129,34 @@ export async function handler(chatUpdate) {
                 if (!isNumber(user.doglastfeed))
                     user.doglastfeed = 0
 
+                if (!isNumber(user.kucing))
+                    user.kucing = 0
+		if (!isNumber(user.kucinglastclaim))
+                    user.kucinglastclaim = 0
+		if (!isNumber(user.kuda))
+                    user.kuda = 0
+		if (!isNumber(user.kudalastclaim))
+                    user.kudalastclaim = 0
+		if (!isNumber(user.rubah))
+                    user.rubah = 0
+		if (!isNumber(user.rubahlastclaim))
+                    user.rubahlastclaim = 0
+		if (!isNumber(user.anjing))
+                    user.anjing = 0
+		if (!isNumber(user.anjinglastclaim))
+                    user.anjinglastclaim = 0
+
+		if (!isNumber(user.anakkucing))
+                    user.anakkucing = 0
+		if (!isNumber(user.anakkuda))
+                    user.anakkuda = 0
+		if (!isNumber(user.anakrubah))
+                    user.anakrubah = 0
+		if (!isNumber(user.anakanjing))
+                    user.anakanjing = 0
+		if (!isNumber(user.makananpet))
+                    user.makananpet = 0
+
                 if (!isNumber(user.armor))
                     user.armor = 0
                 if (!isNumber(user.armordurability))
@@ -214,6 +242,21 @@ export async function handler(chatUpdate) {
                     catlastfeed: 0,
                     foxlastfeed: 0,
                     doglastfeed: 0,
+
+                    kucing: 0,
+		    kucinglastclaim: 0,
+		    kuda: 0,
+		    kudalastclaim: 0,
+		    rubah: 0,
+		    rubahlastclaim: 0,
+		    anjing: 0,
+		    anjinglastclaim: 0,
+
+                    anakkucing: 0,
+		    anakkuda: 0,
+		    anakrubah: 0,
+		    anakanjing: 0,
+		    makananpet: 0,
 
                     armor: 0,
                     armordurability: 0,
