@@ -157,6 +157,23 @@ export async function handler(chatUpdate) {
 		if (!isNumber(user.makananpet))
                     user.makananpet = 0
 
+                if (!isNumber(user.apel))
+                    user.apel = 0
+		if (!isNumber(user.ayamb))
+                    user.ayamb = 0
+		if (!isNumber(user.ayamg))
+                    user.ayamg = 0
+		if (!isNumber(user.sapir))
+                    user.sapir = 0
+		if (!isNumber(user.ssapi))
+                    user.ssapi = 0
+		if (!isNumber(user.esteh))
+                    user.esteh = 0
+		if (!isNumber(user.leleb))
+                    user.leleb = 0
+		if (!isNumber(user.leleg))
+                    user.leleg = 0
+
                 if (!isNumber(user.armor))
                     user.armor = 0
                 if (!isNumber(user.armordurability))
@@ -257,6 +274,15 @@ export async function handler(chatUpdate) {
 		    anakrubah: 0,
 		    anakanjing: 0,
 		    makananpet: 0,
+
+                    apel: 0,
+		    ayamb: 0,
+		    ayamg: 0,
+		    ssapi: 0,
+		    sapir: 0,
+		    leleb: 0,
+	            leleg: 0,
+		    esteh: 0,
 
                     armor: 0,
                     armordurability: 0,
