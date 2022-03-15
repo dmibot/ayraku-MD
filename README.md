@@ -1,18 +1,19 @@
 # Games-Wabot
 
-<a href="https://github.com/BochilGaming/games-wabot/network/members"><img title="Forks" src="https://img.shields.io/github/forks/BochilGaming/games-wabot?label=Forks&color=blue&style=flat-square"></a>
-<a href="https://github.com/BochilGaming/games-wabot/watchers"><img title="Watchers" src="https://img.shields.io/github/watchers/BochilGaming/games-wabot?label=Watchers&color=green&style=flat-square"></a>
-<a href="https://github.com/BochilGaming/games-wabot/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/BochilGaming/games-wabot?label=Stars&color=yellow&style=flat-square"></a>
-<a href="https://github.com/BochilGaming/games-wabot/graphs/contributors"><img title="Contributors" src="https://img.shields.io/github/contributors/BochilGaming/games-wabot?label=Contributors&color=blue&style=flat-square"></a>
-<a href="https://github.com/BochilGaming/games-wabot/issues"><img title="Issues" src="https://img.shields.io/github/issues/BochilGaming/games-wabot?label=Issues&color=success&style=flat-square"></a>
-<a href="https://github.com/BochilGaming/games-wabot/issues?q=is%3Aissue+is%3Aclosed"><img title="Issues" src="https://img.shields.io/github/issues-closed/BochilGaming/games-wabot?label=Issues&color=red&style=flat-square"></a>
-<a href="https://github.com/BochilGaming/games-wabot/pulls"><img title="Pull Request" src="https://img.shields.io/github/issues-pr/BochilGaming/games-wabot?label=PullRequest&color=success&style=flat-square"></a>
-<a href="https://github.com/BochilGaming/games-wabot/pulls?q=is%3Apr+is%3Aclosed"><img title="Pull Request" src="https://img.shields.io/github/issues-pr-closed/BochilGaming/games-wabot?label=PullRequest&color=red&style=flat-square"></a>
+<a href="https://github.com/botstylee/botstylee-md/network/members"><img title="Forks" src="https://img.shields.io/github/forks/botstylee/botstylee-md?label=Forks&color=blue&style=flat-square"></a>
+<a href="https://github.com/botstylee/botstylee-md/watchers"><img title="Watchers" src="https://img.shields.io/github/watchers/botstylee/botstylee-md?label=Watchers&color=green&style=flat-square"></a>
+<a href="https://github.com/botstylee/botstylee-md/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/botstylee/botstylee-md?label=Stars&color=yellow&style=flat-square"></a>
+<a href="https://github.com/botstylee/botstylee-md/graphs/contributors"><img title="Contributors" src="https://img.shields.io/github/contributors/botstylee/botstylee-md?label=Contributors&color=blue&style=flat-square"></a>
+<a href="https://github.com/botstylee/botstylee-md/issues"><img title="Issues" src="https://img.shields.io/github/issues/botstylee/botstylee-md?label=Issues&color=success&style=flat-square"></a>
+<a href="https://github.com/botstylee/botstylee-md/issues?q=is%3Aissue+is%3Aclosed"><img title="Issues" src="https://img.shields.io/github/issues-closed/botstylee/botstylee-mdt?label=Issues&color=red&style=flat-square"></a>
+<a href="https://github.com/botstylee/botstylee-md/pulls"><img title="Pull Request" src="https://img.shields.io/github/issues-pr/botstylee/botstylee-md?label=PullRequest&color=success&style=flat-square"></a>
+<a href="https://github.com/botstylee/botstylee-md/pulls?q=is%3Apr+is%3Aclosed"><img title="Pull Request" src="https://img.shields.io/github/issues-pr-closed/botstylee/botstylee-md?label=PullRequest&color=red&style=flat-square"></a>
 
+## Cara Memakai Botstylee
+[![`Link YouTube`](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT81Bq_meUaSdO3MGy7IKpjMR0HIWbzYrhYb43FTsBjVFicGfXBTOPyXg44&s=10)](https://youtube.com/channel/UCrNO1yUYW0i3xsJp4NGBh4Q)
+## Join Group BOT
+[![Grup WhatsApp](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/KihEAYjKr04LI4uUrbiiip) 
 
-## Join Group Diskusi
-[![Grup WhatsApp](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/GVwpKf83s42D1CnIfDW19G) 
-**NO BOT**
 
 
 #### Deploy to Heroku
@@ -72,7 +73,7 @@ apt install wget curl git ffmpeg imagemagick build-essential libcairo2-dev libpa
 ubuntu
 curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -
 apt install -y nodejs gcc g++ make
-git clone https://github.com/BochilGaming/games-wabot
+git clone https://github.com/botstylee/botstylee-md
 cd games-wabot
 npm install
 npm update
@@ -88,7 +89,7 @@ npm update
 * Download And Install ImageMagick [`Click Here`](https://imagemagick.org/script/download.php)
 
 ```bash
-git clone https://github.com/BochilGaming/games-wabot
+git clone https://github.com/botstylee/botstylee-md
 cd games-wabot
 npm install
 npm update
@@ -217,12 +218,8 @@ conn.sendHydrated(m.chat, 'text', 'footer', 'buffer', null, null, null, null, [
 **Allah SWT**
 
 [![Nurutomo](https://github.com/Nurutomo.png?size=100)](https://github.com/Nurutomo)
-[![BochilGaming](https://github.com/BochilGaming.png?size=100)](https://github.com/BochilGaming)
+[![Benniismael](https://github.com/botstylee.png?size=100)](https://github.com/botstylee)
 
 #### Contributor
-[![idhamthoriqbot](https://github.com/idhamthoriqbot.png?size=100)](https://github.com/idhamthoriqbot)
-[![zatu22](https://github.com/zatu22)](https://github.com/zatu22)
-[![Adiixyz](https://github.com/Adiixyz.png?size=100)](https://github.com/Adiixyz)
-[![Nobuyaki](https://github.com/Nobuyaki.png?size=100)](https://github.com/Nobuyaki)
-[![arisawali2014](https://github.com/arisawali2014.png?size=100)](https://github.com/arisawali2014)
-[![botstylee](https://github.com/botstylee)](https://github.com/botstylee)
+[![contributor](https://github.com/Ghost19-ui.png?size=100)](https://github.com/Ghost19-ui)
+
