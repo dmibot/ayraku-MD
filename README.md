@@ -33,7 +33,7 @@ $ pkg install git -y
 $ pkg install nodejs -y
 $ pkg install ffmpeg -y
 $ pkg install imagemagick -y
-$ git clone https://github.com/BochilGaming/games-wabot -b multi-device
+$ git clone https://github.com/botstylee/botstylee-md -b multi-device
 $ cd games-wabot
 $ npm i 
 $ node .
