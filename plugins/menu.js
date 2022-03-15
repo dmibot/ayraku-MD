@@ -15,6 +15,7 @@ let tags = {
   'group': 'Group',
   'premium': 'Premium',
   'primbon': 'Primbon',
+  'anime': 'Anime',
   'internet': 'Internet',
   'nulis': 'MagerNulis & Logo',
   'downloader': 'Downloader',
