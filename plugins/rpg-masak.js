@@ -1,3 +1,4 @@
+let { MessageType } = require('@adiwajshing/baileys')
 let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 	let type = (args[0] || '').toLowerCase()
     let msk= (args[0] || '').toLowerCase()
