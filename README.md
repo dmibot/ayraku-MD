@@ -1,4 +1,4 @@
-# Games-Wabot
+# Wabot-bsbt
 
 <a href="https://github.com/botstylee/botstylee-md/network/members"><img title="Forks" src="https://img.shields.io/github/forks/botstylee/botstylee-md?label=Forks&color=blue&style=flat-square"></a>
 <a href="https://github.com/botstylee/botstylee-md/watchers"><img title="Watchers" src="https://img.shields.io/github/watchers/botstylee/botstylee-md?label=Watchers&color=green&style=flat-square"></a>
