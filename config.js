@@ -17,6 +17,7 @@ global.APIs = { // API Prefix
   zeks: 'https://api.zeks.xyz',
   pencarikode: 'https://pencarikode.xyz',
   botstyle: 'https://botstyle-api.herokuapp.com',
+  bsbt: 'https://rest-beni.herokuapp.com/',
   LeysCoder: 'https://leyscoders-api.herokuapp.com'
 }
 global.APIKeys = { // APIKey Here
@@ -26,6 +27,7 @@ global.APIKeys = { // APIKey Here
   'https://api.zeks.xyz': 'apivinz',
   'https://pencarikode.xyz': 'pais',
   'https://botstyle-api.herokuapp.com': 'LHiZL5Gi',
+  'https://rest-beni.herokuapp.com/': 'benniismaelapikey',
   'https://leyscoders-api.herokuapp.com': 'dappakntlll'
 }
 
