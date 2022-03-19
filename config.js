@@ -27,7 +27,7 @@ global.APIKeys = { // APIKey Here
   'https://api.zeks.xyz': 'apivinz',
   'https://pencarikode.xyz': 'pais',
   'https://botstyle-api.herokuapp.com': 'LHiZL5Gi',
-  'https://rest-beni.herokuapp.com/': 'benniismaelapikey',
+  'https://rest-beni.herokuapp.com': 'benniismaelapikey',
   'https://leyscoders-api.herokuapp.com': 'dappakntlll'
 }
 
