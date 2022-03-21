@@ -1,4 +1,4 @@
-let fetch = require('node-fetch')
+import fetch from 'node-fetch'
 let handler = async(m, { conn }) => {
   let res = await fetch(global.API('botstyle', '/api/loli', {}, 'apikey'))
 
