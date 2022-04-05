@@ -1,6 +1,6 @@
-const uploadImage = require('../lib/uploadImage')
-const uploadFile = require('../lib/uploadFile')
-let fetch = require('node-fetch')
+import { uploadImage } from '../lib/uploadImage'
+import { uploadFile } from '../lib/uploadFile'
+import fetch from 'node-fetch'
 let handler = async (m, { conn,usedPrefix, command, args ,text}) => {  
 try {
   let q = m.quoted ? m.quoted : m
