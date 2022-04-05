@@ -1,7 +1,7 @@
 import { uploadImage } from '../lib/uploadImage'
 import { uploadFile } from '../lib/uploadFile'
 import { sticker } from '../lib/sticker'
-import { MessageType } from '@adiwajshing/baileys')
+import { MessageType } from '@adiwajshing/baileys'
 
 let handler = async (m, { conn, text }) => {
    if (!text && m.mentionedJid.length == 0) return m.reply('Tag member kak, contoh *#rip @member*')
