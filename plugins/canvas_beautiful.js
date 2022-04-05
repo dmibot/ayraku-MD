@@ -1,7 +1,7 @@
-const uploadImage = require('../lib/uploadImage')
-const uploadFile = require('../lib/uploadFile')
-const { sticker } = require('../lib/sticker')
-const { MessageType } = require('@adiwajshing/baileys')
+import { uploadImage } from '../lib/uploadImage'
+import { uploadFile } from '../lib/uploadFile'
+import { sticker } form '../lib/sticker'
+import { MessageType } from '@adiwajshing/baileys'
 
 let handler = async (m, { conn, text }) => {
    if (!text && m.mentionedJid.length == 0) return m.reply('Tag member cewek yang ada pp kak, contoh *#beautiful @member*')
