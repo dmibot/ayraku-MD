@@ -1,4 +1,4 @@
-let axios = require("axios");
+import { axios } from "axios";
 let handler = async(m, { conn, text }) => {
 
     if (!text) return conn.reply(m.chat, 'Silahkan masukan mimpimu', m)
