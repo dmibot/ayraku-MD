@@ -81,7 +81,7 @@ handler.help = ['feed [pet type]']
 handler.tags = ['rpg']
 handler.command = /^(feed(ing)?)$/i
 
-module.exports = handler
+export default handler
 
 function clockString(ms) {
   let h = Math.floor(ms / 3600000)
