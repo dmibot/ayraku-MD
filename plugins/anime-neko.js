@@ -10,4 +10,4 @@ handler.help = ['neko']
 handler.tags = ['anime']
 handler.command = /^neko$/i
 
-module.exports = handler
+export default handler
