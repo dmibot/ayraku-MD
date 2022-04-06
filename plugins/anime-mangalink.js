@@ -34,4 +34,4 @@ handler.command = /^ma(nga|nhwa)link$/i
 handler.group = false
 handler.register = true
 
-module.exports = handler
+export default handler
