@@ -11,4 +11,4 @@ handler.help = ['loli']
 handler.tags = ['anime']
 handler.command = /^(loli)$/i
 
-module.exports = handler
+export default handler
