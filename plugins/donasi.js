@@ -5,6 +5,7 @@ let handler =  m => m.reply(`
 ╰────
 
 ╭─「 Donasi • Non Pulsa 」
+│ • https://www.paypal.com/paypalme/BenniIsmael
 │ • https://saweria.co/botstyle
 │ • Gooay [082114499086]
 │ • dana [082114499086]
