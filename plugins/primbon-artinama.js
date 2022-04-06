@@ -17,4 +17,4 @@ handler.help = ['artinama [nama]']
 handler.tags = ['primbon']
 handler.command = /^artinama/i
 
-module.exports = handler
+export default handler
