@@ -46,6 +46,7 @@ const defaultMenu = {
 ├ 🕰️ Waktu: *%time*
 ├ 📈 Uptime: *%uptime (%muptime)*
 ├ 📊 Database: %rtotalreg of %totalreg
+├ Gunakan Ayraku Bot seperlunya!!!
 │============================
 %readmore`.trimStart(),
   header: '◪「 %category 」',
