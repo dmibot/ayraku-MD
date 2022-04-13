@@ -1,5 +1,5 @@
 {
-  "name": "ok",
+  "name": "ayraku-md",
   "version": "1.0.0",
   "description": "Customizable WhatsApp Bot",
   "main": "index.js",
@@ -15,12 +15,12 @@
     "test2": "nodemon index.js"
   },
   "keywords": [
-    "heko"
+    "ayraku"
   ],
-  "author": "gweh",
-  "license": "ISC",
+  "author": "OpuX",
+  "license": "MIT",
   "dependencies": {
-    "@adiwajshing/baileys": "^4.0.1",
+    "@adiwajshing/baileys": "^4.1.0",
     "@bochilteam/scraper": "0.0.9",
     "awesome-phonenumber": "^2.70.0",
     "axios": "^0.26.1",
